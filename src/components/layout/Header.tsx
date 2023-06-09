@@ -7,9 +7,9 @@ export const Header = () => {
   return (
     <div className="header">
       <Navbar collapseOnSelect expand="lg">
-        <Container >
+        <Container>
           <Navbar.Collapse id="responsive-navbar-nav">
-          <img
+            <img
               src="assets/img/phone.png"
               width="20"
               height="20"
@@ -21,7 +21,6 @@ export const Header = () => {
           <Navbar.Brand href="#home">
             <img
               src="assets/img/logo.png"
-              width="30"
               height="30"
               className="d-inline-block align-top"
               alt="React Bootstrap logo"
@@ -30,11 +29,41 @@ export const Header = () => {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
+              <Nav.Link href="#pricing"> </Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">More deets</Nav.Link>
-            
+              <Navbar.Brand href="#home">
+                <img
+                  src="assets/svg/facebook.svg"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />
+              </Navbar.Brand>
+              <Navbar.Brand href="#home">
+                <img
+                  src="assets/svg/instagram.svg"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />
+              </Navbar.Brand>
+              <Navbar.Brand href="#home">
+                <img
+                  src="assets/svg/twitter.svg"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />
+              </Navbar.Brand>
+              <Navbar.Brand href="#home">
+                <img
+                  src="assets/svg/youtube.svg"
+                  height="30"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />
+              </Navbar.Brand>
             </Nav>
           </Navbar.Collapse>
         </Container>
