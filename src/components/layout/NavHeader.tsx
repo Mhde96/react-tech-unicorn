@@ -28,7 +28,7 @@ export const NavHeader = () => {
 
                 <Navbar.Brand href="#home">
                 <img
-                  src="assets/img/love.png"
+                  src="assets/svg/user.svg"
                   height="24"
                   className="d-inline-block align-top"
                   alt="React Bootstrap logo"
