@@ -6,10 +6,11 @@ import { Outlet } from "react-router-dom";
 export const PlatformLayout = () => {
   return (
     <>
-     <Container>
       <Header />
-        <Outlet />
+      <Container >
+      <Outlet />
       </Container>
+        
       <Footer />
     </>
   );
