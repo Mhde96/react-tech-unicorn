@@ -7,10 +7,10 @@ export const PlatformLayout = () => {
   return (
     <>
       <Header />
-      <Container >
-      <Outlet />
+      <Container>
+        <Outlet />
       </Container>
-        
+
       <Footer />
     </>
   );
