@@ -25,7 +25,7 @@ export const Footer = () => {
           <Col lg={1} />
           <Col lg={3}>
             <Navbar.Text>Our Social Media</Navbar.Text>
-            <Nav.Link>Facebook</Nav.Link>
+            <Nav.Link >Facebook</Nav.Link>
             <Nav.Link>Twitter</Nav.Link>
             <Nav.Link>Instagram</Nav.Link>
             <Nav.Link>Youtube</Nav.Link>
