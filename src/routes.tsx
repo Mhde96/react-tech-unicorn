@@ -7,9 +7,10 @@ export const Navigations = () => {
     <BrowserRouter>
       <Routes>
         <Route element={<PlatformLayout />} path="/">
-          <Route element={<HomeContainer />}  />
+          <Route element={<HomeContainer />} path="/"  />
         </Route>
       </Routes>
     </BrowserRouter>
   );
 };
+
