@@ -1,3 +1,5 @@
 export const Header = () => {
-    return <div></div>
+    return <div className="header"> 
+       +022 319 821 967 
+    </div>
 }
