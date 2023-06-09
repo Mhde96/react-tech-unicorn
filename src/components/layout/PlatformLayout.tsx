@@ -10,9 +10,7 @@ export const PlatformLayout = () => {
       <Header />
       <NavHeader/>
      
-      <Container>
         <Outlet />
-      </Container>
 
       <Footer />
     </>

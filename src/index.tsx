@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navigations } from './routes';
 
 import "./styles/footer.scss"
+import "./styles/home-page-styles.scss"
 
 
 const root = ReactDOM.createRoot(
