@@ -1,0 +1,28 @@
+@import "./variable.scss";
+#home-page-styles {
+  display: flex;
+  .button {
+    display: flex;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 10px;
+    max-width: 120px;
+
+    color: white;
+    background-color: $primary-color;
+  }
+
+  .images {
+    position: relative;
+    left: 200px;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    overflow-x: hidden;
+    div {
+      background: gray;
+      width: 70%;
+      height: 400px;
+    }
+  }
+}
