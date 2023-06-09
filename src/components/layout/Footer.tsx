@@ -32,6 +32,35 @@ export const Footer = () => {
           </Col>
           <Col lg={3}>
             <Navbar.Text>Contact</Navbar.Text>
+            <Navbar>
+              
+            <Nav.Link >  <img
+                  src="assets/svg/point.svg"
+                  height="20px"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                /> 8819 Ohio St. South Gate, California 90280
+           
+        
+            </Nav.Link>
+            </Navbar>
+            <Navbar>
+            <Nav.Link > <img
+                  src="assets/svg/email.svg"
+                  height="18px"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                />  ourstudio@hello.com
+              </Nav.Link>
+              </Navbar>
+              <Navbar>
+            <Nav.Link > <img
+                  src="assets/svg/phone.svg"
+                  height="18px"
+                  className="d-inline-block align-top"
+                  alt="React Bootstrap logo"
+                /> +271 386-647-3637</Nav.Link>
+                </Navbar>
           </Col>
         </Row>
       </Container>
