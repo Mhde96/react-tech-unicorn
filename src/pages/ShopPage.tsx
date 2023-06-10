@@ -8,20 +8,24 @@ import { CarouselSectionHome } from "./home/sections/carousel/CarouselSectionHom
 import { CategoriesList } from "../components/category/CategoriesList";
 import { ProductList } from "../components/product-list/ProductList";
 import { useState } from "react";
+import { Recommend } from "../components/recommended/Recommend";
+import { Hero } from "../components/hero/Hero";
+// import { Recommend } from "../components/recommended/Recommend";
 
 export const ShopPage = () => {
-  const [selectCategories, setSelectCategory] = useState(null);
+  const [selectCategories, setSelectCategory]: any = useState(null);
 
   return (
     <div>
-      <DiscountSection />
-      <CarouselSectionHome />
-
+      <Hero/>
       <CategoriesList
         selectCategories={selectCategories}
         setSelectCategory={setSelectCategory}
       />
       <ProductList category={selectCategories} />
+      <DiscountSection />
+      <Recommend title="Recommended for you"/> 
     </div>
+     
   );
 };

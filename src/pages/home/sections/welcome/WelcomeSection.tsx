@@ -12,7 +12,7 @@ export const WelcomeSection = () => {
         <Row>
           <Col xs={8} className="left-side">
             <div>
-              <h1> Sort out Your</h1>
+              <p> Sort out Your</p>
               <h1> Spring Look</h1>
             </div>
             <div>

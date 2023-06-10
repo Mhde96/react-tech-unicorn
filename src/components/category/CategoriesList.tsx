@@ -2,15 +2,15 @@ import { useState } from "react";
 import { useCategoriesApi } from "../../apis/getCategories";
 
 type CategoriesListPropsType = {
-  selectCategories: string;
-  setSelectCategory: (category: string) => void;
+  selectCategories: string | null;
+  setSelectCategory: (category:null |  string) => void;
 };
 export const CategoriesList = (props: CategoriesListPropsType) => {
   const { selectCategories, setSelectCategory } = props;
 
   const categories = useCategoriesApi();
 
-  const handleSelectCategory = (category: string) => {
+  const handleSelectCategory = (category: string | null) => {
     setSelectCategory(category);
   };
   return (

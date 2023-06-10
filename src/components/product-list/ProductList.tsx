@@ -14,7 +14,7 @@ export const ProductList = (props: ProductListPropsType) => {
       <Row>
         {products?.data?.map((item, index) => (
           <Col xs={3}>
-            <Product item={item} />
+            <Product item={item} isLike={true} isCategory isDesc />
           </Col>
         ))}
       </Row>
