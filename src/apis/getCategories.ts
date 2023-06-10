@@ -4,12 +4,12 @@ import { useQuery } from 'react-query'
 import { productType } from "../types/product-type"
 
 
-type useProductApiType ={
+type useProductApiType = {
     data: Array<productType>
 }
-export const useProductApi = (): useProductApiType => {
-    const fetchData = () => api.get(endpoints.getAll)
-    const { data } = useQuery(endpoints.getAll, fetchData)
+export const useCategoriesApi = (): useProductApiType => {
+    const fetchData = () => api.get(endpoints.get_categories)
+    const { data } = useQuery(endpoints.get_categories, fetchData)
     return { data: data?.data }
 
 }
