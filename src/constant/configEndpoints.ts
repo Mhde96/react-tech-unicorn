@@ -1,2 +1,2 @@
-export const baseURL = '/' 
+export const baseURL = 'https://fakestoreapi.com/' 
 

@@ -1,21 +1,22 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 
-import 'bootstrap/dist/css/bootstrap.min.css';
-import { Navigations } from './routes';
+import "./index.scss";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./styles/footer.scss";
+import "./styles/home-page-styles.scss";
+import "./styles/fonts.scss";
 
-import "./styles/footer.scss"
-import "./styles/home-page-styles.scss"
-
+import App from "./App";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <Navigations />
+    <App />
   </React.StrictMode>
 );
 

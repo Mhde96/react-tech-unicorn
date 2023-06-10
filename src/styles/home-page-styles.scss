@@ -1,7 +1,17 @@
 @import "./variable.scss";
 #home-page-styles {
-  position: relative;
   display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  .left-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 360px;
+  }
+
   .button {
     display: flex;
     justify-content: center;
@@ -13,17 +23,14 @@
     background-color: $primary-color;
   }
 
-  .images {
-    position: absolute;
-    right: -10px;
+  .right-side {
     display: flex;
     gap: 10px;
-    width: 50%;
-    overflow-x: hidden;
-    div {
-      background: gray;
-      width: 70%;
-      height: 400px;
+
+    img {
+      width: 500px;
+      overflow-y: hidden;
+      
     }
   }
 }
