@@ -1,7 +1,7 @@
 import { Col, Row } from "react-bootstrap";
 import "./arrival-section-styles.scss";
 import { useEffect, useState } from "react";
-import { useProductApi } from "../../apis/products";
+import { useProductApi } from "../../apis/getProducts";
 import { Product } from "../../components/prpduct/Product";
 import Slider from "react-slick";
 import { productType } from "../../types/product-type";
