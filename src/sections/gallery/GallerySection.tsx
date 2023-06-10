@@ -13,7 +13,7 @@ export const GallerySection = () => {
             >
               {index == 0 ? (
                 <>
-                  <span className="h2">Dresses</span>
+                  <p className="h2">Dresses</p>
                   <span className="description h4">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.
